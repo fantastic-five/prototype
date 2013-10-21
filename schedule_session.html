@@ -6,6 +6,7 @@
 
 </head>
 <body>
+
 <header class="navbar">
     <nav>
         <ul>
@@ -16,24 +17,22 @@
 
 <article class="main">
     <section>
-        <h1>Searchable List of Students</h1>
+        <h1>Schedule Session</h1>
 
         <div id="page_content" align="center">
-            <a href="confirmation_success.html" class="Medbutton blue">Select Student</a>
+            <a href="confirmation_success.html" class="Medbutton blue">Submit</a>
             <br>
             <br><br>
             <form>
-                <select id="student_list">
-                    <option value="Student1">&lt;Student 1&gt;</option>
-                    <option value="Student1">&lt;Student 2&gt;</option>
-                    <option value="Student1">&lt;Student 3&gt;</option>
-                    <option value="Student1">&lt;Student 4&gt;</option>
-                </select>
+                <label>Enter Session Information:</label><br>
+                Days of the Week (M, T, W...): <input type="text" name="days_string"><br />
+                Time Session Starts: <input type="text" name="time_start"><br />
+                Time Session Ends: <input type="text" name="time_end"><br />
             </form>
         </div>
 
         <h2>
-            <a href="list_of_enrolled_students.html" class="button green">back</a>
+            <a href="list_of_sessions.html" class="button green">back</a>
             <a href="index.html" class="button blue">home</a>
             <a href="#" class="button gray">logout</a>
         </h2>
