@@ -170,22 +170,6 @@ nav ul {
 	transition: all 0.15s ease;
 }
 
-.green {
-	color: #3e5706;
-	background: #a5cd4e;
-}
-/* Blue color */
-.blue {
-	color: #19667d;
-	background: #70c9e3;
-}
-/* Gray Color */
-.gray {
-	color: #515151;
-	background: #d3d3d3;
-}
-
-
  .Bigbutton {
 	display: inline-block;
 	position: relative;
@@ -210,19 +194,4 @@ nav ul {
 	-o-transition: all 0.15s ease;
 	-ms-transition: all 0.15s ease;
 	transition: all 0.15s ease;
-}
-
-.green {
-	color: #3e5706;
-	background: #a5cd4e;
-}
-/* Blue color */
-.blue {
-	color: #19667d;
-	background: #70c9e3;
-}
-/* Gray Color */
-.gray {
-	color: #515151;
-	background: #d3d3d3;
 }
