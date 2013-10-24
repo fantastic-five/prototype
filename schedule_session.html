@@ -24,26 +24,25 @@
 
 <article class="main">
 	<section>
-		<h1>Schedule Session</h1>
+		<h1>Schedule</h1>
 
-		<div id="page_content" align="center">
-			<a href="confirmation_success.html" class="Medbutton blue">Submit Valid</a>
-			<a href="schedule_session.html" class="Medbutton blue">Submit Invalid</a>
+		<div id="edit" style="background-color:#a5cd4e;height:200px;width:550px;border-radius:25px;text-align:center;margin-left:auto;margin-right:auto">
 			<br>
-			<br><br>
-			<form>
+			
+			<form action = confirmation_success.html>
 				<label>Enter Session Information:</label><br>
-				Days of the Week (M, T, W...): <input type="text" name="days_string"><br />
-				Time Session Starts: <input type="text" name="time_start"><br />
-				Time Session Ends: <input type="text" name="time_end"><br />
+				<label>Days of the Week:</label> <input type="text"/>
+				<label>Time Session Starts:</label> <input type="text"/>
+				<label>Time Session Ends:</label> <input type="text"/><br>
+				<input type="submit" value="Go!">
 			</form>
 		</div>
 
-		<h2>
+		<footer>
 			<a href="list_of_sessions.html" class="button green">back</a>
 			<a href="index.html" class="button blue">home</a>
 			<a href="login.html" class="button gray">logout</a>
-		</h2>
+		</footer>
 	</section>
 </article>
 
