@@ -144,6 +144,11 @@ footer {
 	display: table;
 }
 
+.divider {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
 .error-message {
 	color:red;
 	text-align:center;
