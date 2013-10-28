@@ -144,6 +144,12 @@ footer {
 	display: table;
 }
 
+.error-message {
+	color:red;
+	text-align:center;
+	padding-bottom: 15px;
+}
+
 .green {
 	color: #3e5706;
 	background: #a5cd4e;
