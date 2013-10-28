@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>fantastic five program</title>
+	<title>Fantastic Five Program</title>
 	<link rel="stylesheet" type="text/css" href="assets/stylesheets/default.css"/>
 </head>
 <body>
@@ -10,53 +10,72 @@
 		<div class="brand"><a href="index.html">Fantastic Five Training Application Prototype</a></div>
 		<nav>
 			<ul>
+				<li><a href="programs.html">Programs</a></li>
+				<li><a href="accounts.html">Accounts</a></li>
+				<li><a href="login.html">Logout</a></li>
 			</ul>
 		</nav>
 	</header>
 	<article class="main">
 		<section>
 			<h1>Edit Program</h1>
-<div id="nav" style="background-color:#a5cd4e;height:300px;width:550px;border-radius:25px;text-align:center;margin-left:auto;margin-right:auto"><br>
-			<form action = confirmation_success.html>
-			<label>Program name:</label>
-			<input type="text"/>
-			<label>instructor name:</label>
-			<input type="text" />
-			<label>location:</label>
-			<input type="text"/>
-			<label>days:</label>
-			<input type="text" />
-			<label>time:</label>
-			<input type="text"/>
-			<label>base price:</label>
-			<input type="text"/>
-			<label>base period:</label>
-			<input type="text"/>
-			<label>discount price:</label>
-			<input type="text" />
-			<label>extended period:</label>
-			<input type="text"/><br><br>
-			<input type="submit" value="Go!">
+			<form class="well" action="confirmation_success.html" method="post">
+				<div class="field">
+					<label for="program_name">Program name:</label>
+					<input id="program_name" name="program_name" type="text"/>
+				</div>
+
+				<div class="field">
+					<label for="instructor_name">Instructor name:</label>
+					<input id="instructor_name" name="instructor_name" type="text"/>
+				</div>
+
+				<div class="field">
+					<label for="location">Location:</label>
+					<input id="location" name="location" type="text"/>
+				</div>
+
+				<div class="field">
+					<label for="days">Days:</label>
+					<input id="days" name="days" type="text"/>
+				</div>
+
+				<div class="field">
+					<label for="time">Time:</label>
+					<input id="time" name="time" type="text"/>
+				</div>
+
+				<div class="field">
+					<label for="base_price">Base price:</label>
+					<input id="base_price" name="base_price" type="text"/>
+				</div>
+
+				<div class="field">
+					<label for="base_period">Base period:</label>
+					<input id="base_period" name="base_period" type="text"/>
+				</div>
+
+				<div class="field">
+					<label for="discount_price">Discount price:</label>
+					<input id="discount_price" name="discount_price" type="text"/>
+				</div>
+
+				<div class="field">
+					<label for="extended_period">Extended period:</label>
+					<input id="extended_period" name="extended_period" type="text"/>
+				</div>
+
+				<input class="button" type="submit" value="Update Program">
+				<a href="edit_program_again.html" class="button gray">Update with Bad Info</a>
 			</form>
-			</div>
-	
-			<footer>
-			<link rel="stylesheet" type="text/css" href="button.css">
-			<a href="confirmation_success.html" class="button gray">good info</a>
-			
-			<link rel="stylesheet" type="text/css" href="button.css">
-			<a href="edit_program_again.html" class="button gray">bad info</a>
-			</footer>
-			
-			<footer>
-			<a href="accounts.html" class="button green">back</a>
-			<a href="index.html" class="button blue">home</a>
-			<a href="login.html" class="button gray">logout</a>
-			</footer>
-			<p></p>
 		</section>
 	</article>
+	<footer>
+		<nav>
+			<a href="programs.html" class="button green">Back</a>
+			<a href="index.html" class="button blue">Home</a>
+			<a href="login.html" class="button gray">Logout</a>
+		</nav>
+	</footer>
 </body>
 </html>
-
-
