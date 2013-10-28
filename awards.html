@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>fantastic five program</title>
+	<title>Fantastic Five Program</title>
 	<link rel="stylesheet" type="text/css" href="assets/stylesheets/default.css"/>
 </head>
 <body>
@@ -10,28 +10,35 @@
 		<div class="brand"><a href="index.html">Fantastic Five Training Application Prototype</a></div>
 		<nav>
 			<ul>
+				<li><a href="programs.html">Programs</a></li>
+				<li><a href="accounts.html">Accounts</a></li>
+				<li><a href="login.html">Logout</a></li>
 			</ul>
 		</nav>
 	</header>
 	<article class="main">
 		<section>
 			<h1>Student's awards</h1>
-			<div id="nav" style="text-align:center;position:center">
-			<img src="http://www.cornellgpsa.com/wp/wp-content/uploads/2012/03/award_big.jpg" alt="award"><br>
-			Java mastered!<br>
+			<div class="tiles">
+				<div class="tile">
+					<figure>
+						<img src="http://www.cornellgpsa.com/wp/wp-content/uploads/2012/03/award_big.jpg" alt="Award">
+						<figcaption>Java mastered!</figcaption>
+					</figure>
+				</div>
 			</div>
 
-			<div id="give" style="text-align:center;position:center">
-			<a href="assign_award.html" class="button-action button blue">give new award</a>
-			</div>
-			<footer>
-			<link rel="stylesheet" type="text/css">
-			<a href="sample_student_page.html" class="button green">back</a>
-			<a href="index.html" class="button blue">home</a>
-			<a href="login.html" class="button gray">logout</a>
-			</footer>
-			<p></p>
+			<nav class="nav-main">
+				<a href="assign_award.html" class="button button-action blue">Give New Award</a>
+			</nav>
 		</section>
 	</article>
+	<footer>
+		<nav>
+			<a href="sample_account.html" class="button green">Back</a>
+			<a href="index.html" class="button blue">Home</a>
+			<a href="login.html" class="button gray">Logout</a>
+		</nav>
+	</footer>
 </body>
 </html>
