@@ -1,46 +1,50 @@
+<!DOCTYPE html>
+<html>
 <head>
 	<meta charset="utf-8">
-	<title>fantastic five program</title>
+	<title>Fantastic Five Program</title>
 	<link rel="stylesheet" type="text/css" href="assets/stylesheets/default.css"/>
-
-
-
-
-
 </head>
 <body>
 	<header class="navbar">
 		<div class="brand"><a href="index.html">Fantastic Five Training Application Prototype</a></div>
 		<nav>
 			<ul>
+				<li><a href="programs.html">Programs</a></li>
+				<li><a href="accounts.html">Accounts</a></li>
+				<li><a href="login.html">Logout</a></li>
 			</ul>
 		</nav>
 	</header>
 	<article class="main">
 		<section>
 			<h1>New Student</h1>
-<div id="nav" style="background-color:#a5cd4e;height:135px;width:550px;border-radius:25px;text-align:center;margin-left:auto;margin-right:auto">
-			<form action=confirmation_success.html><br>
-			<label>First name:</label>
-			<input type="text"/>
+			<form class="well" action="confirmation_success.html" method="post">
+				<div class="field">
+					<label for="first_name">First name:</label>
+					<input id="first_name" name="first_name" type="text"/>
+				</div>
 
-			<label>Last name:</label>
-			<input type="text"/>
+				<div class="field">
+					<label for="last_name">Last name:</label>
+					<input id="last_name" name="last_name" type="text"/>
+				</div>
 
-			<label>Email:</label>
-			<input style="email"/><br>
+				<div class="field">
+					<label for="email">Email:</label>
+					<input id="email" name="email"type="email"/>
+				</div>
 
-			<input type="submit" value="Go!">
-
+				<input class="button" type="submit" value="Create Student"/>
 			</form>
-			</div><br>
-			<footer><link rel="stylesheet" type="text/css" href="button.css">
-			<a href="accounts.html" class="button green">back</a>
-			<a href="index.html" class="button blue">home</a>
-			<a href="login.html" class="button gray">logout</a>
-			</footer>
-			<p></p>
 		</section>
 	</article>
+	<footer>
+		<nav>
+			<a href="sample_account.html" class="button green">Back</a>
+			<a href="index.html" class="button blue">Home</a>
+			<a href="login.html" class="button gray">Logout</a>
+		</nav>
+	</footer>
 </body>
 </html>
